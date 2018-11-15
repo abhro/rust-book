@@ -1,6 +1,6 @@
 extern crate rand;
 
-use std::io;
+// use std::io;
 use std::io::Write;
 use std::cmp::Ordering;
 use rand::Rng;
@@ -12,13 +12,13 @@ fn main() {
 
     loop {
         print!("Please input your guess: ");
-        io::stdout().flush().ok(); // ok is there, for some reason
+        std::io::stdout().flush().expect("Failed to flush stdout");
         let mut guess = String::new();
-        io::stdin().read_line(&mut guess).expect("Failed to read line");
+        std::io::stdin().read_line(&mut guess).expect("Failed to read line");
 
         let guess: u32 = match guess.trim().parse() {
-            Ok(num) => num,
-            Err(_)  => continue,
+            Ok(num)     => num,
+            Err(_dummy) => continue,
         };
 
         println!("You guessed: {}", guess);

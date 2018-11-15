@@ -24,3 +24,15 @@ path = "src/comments_and_docs.rs"
 [[bin]]
 name = "loops"
 path = "src/loops.rs"
+
+[[bin]]
+name = "tuple_demo"
+path = "src/tuple_demo.rs"
+
+[[bin]]
+name = "array_demo"
+path = "src/array_demo.rs"
+
+[[bin]]
+name = "array_index"
+path = "src/array_index.rs"
