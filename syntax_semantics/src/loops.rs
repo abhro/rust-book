@@ -4,6 +4,8 @@ fn main() {
         x += x - 3;
         println!("{}", x);
 
-        if x % 5 == 0 { break; }
+        if x % 5 == 0 {
+            break;
+        }
     }
 }
