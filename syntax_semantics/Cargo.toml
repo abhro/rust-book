@@ -1,0 +1,26 @@
+[package]
+name = "syntax_semantics"
+version = "0.1.0"
+authors = ["Abhro <Abhro@users.noreply.github.com>"]
+
+[dependencies]
+
+[[bin]]
+name = "variables"
+path = "src/variables.rs"
+
+[[bin]]
+name = "functions"
+path = "src/functions.rs"
+
+[[bin]]
+name = "diverging_functions"
+path = "src/diverging_function.rs"
+
+[[bin]]
+name = "comments_and_docs"
+path = "src/comments_and_docs.rs"
+
+[[bin]]
+name = "loops"
+path = "src/loops.rs"
