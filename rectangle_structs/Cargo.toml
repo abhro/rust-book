@@ -1,0 +1,6 @@
+[package]
+name = "rectangle_structs"
+version = "0.1.0"
+authors = ["abhro <abhro@users.noreply.github.com>"]
+
+[dependencies]
