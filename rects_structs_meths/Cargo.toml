@@ -1,0 +1,6 @@
+[package]
+name = "rects_structs_meths"
+version = "0.1.0"
+authors = ["abhro <abhro@users.noreply.github.com>"]
+
+[dependencies]
