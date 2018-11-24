@@ -1,0 +1,6 @@
+[package]
+name = "coins_and_states"
+version = "0.1.0"
+authors = ["abhro <abhro@users.noreply.github.com>"]
+
+[dependencies]
