@@ -1,9 +1,10 @@
 extern crate rand;
 
-// use std::io;
 use std::io::Write;
 use std::cmp::Ordering;
 use rand::Rng;
+
+pub mod lib;
 
 fn main() {
     println!("Guess the number!");
