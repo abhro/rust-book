@@ -3,4 +3,10 @@ name = "rectangle_structs"
 version = "0.1.0"
 authors = ["abhro <abhro@users.noreply.github.com>"]
 
-[dependencies]
+[[bin]]
+name = "fn_user"
+path = "src/fn_user.rs"
+
+[[bin]]
+name = "method_user"
+path = "src/method_user.rs"
