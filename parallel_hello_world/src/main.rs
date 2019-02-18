@@ -1,10 +1,10 @@
 fn main() {
-    let i = 0;
+    let mut i = 0;
     while i < 10 {
-        std::thread::spawn(/*proc()*/ {
+        std::thread::spawn(|| {
             let greeting_message = "Hello?";
             println!("{}", greeting_message);
         });
-        let i = i + 1;
+        i = i + 1;
     }
 }
