@@ -1,0 +1,23 @@
+[package]
+name = "patterns"
+version = "0.1.0"
+authors = ["abhro <abhro@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[[bin]]
+name = "destructure_structs"
+path = "src/destructure_structs.rs"
+
+[[bin]]
+name = "destructure_enums"
+path = "src/destructure_enums.rs"
+
+[[bin]]
+name = "match_guards"
+path = "src/match_guards.rs"
